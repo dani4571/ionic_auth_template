@@ -1,6 +1,18 @@
 Authentication template for firebase.
 
-Need to change values in src/app/app.firebase.config.ts
+Need to set values in src/app/app.firebase.config.ts
+
+export const FIREBASE_CONFIG = 
+
+  {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+  };
+
 
 to recreate:
 1. ionic start auth_template blank
